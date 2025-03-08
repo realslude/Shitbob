@@ -1,0 +1,28 @@
+Lump STAD
+Title = Stadium_Rave
+Alttitle = Jellyfish_jam
+Authors = Glenn_Nishida,_Mark_Governer
+Soundtestpage = 1
+Soundtestcond = 0
+BPM = 130
+
+Lump GOOFY
+Title = Goofy_Goober_Rock
+Authors = Jim_Wise,_Tom_Rothrock
+Soundtestpage = 1
+Soundtestcond = 0
+BPM = 106
+
+Lump SPNHEN
+Title = SpongeHenge
+Authors = _
+Soundtestpage = 1
+Soundtestcond = 0
+BPM = 35
+
+Lump BFBB
+Title = BFBB_Boss
+Authors = _
+Soundtestpage = 1
+Soundtestcond = 0
+BPM = 130

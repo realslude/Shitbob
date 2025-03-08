@@ -1,0 +1,53 @@
+Character
+SkinName = spongebob
+NameTag = SBLOGO
+DisplayName = 
+TagTextColor = SKINCOLOR_CORNFLOWER
+TagOutlineColor = SKINCOLOR_GOLD
+PlayerText = Hi I'm ^2SpongeBob. ^0He may be slow but he *can* reach higher places than the others.
+
+^2Abilites:^0
+^2Spin:^0 I still know how to ^5Kah-Rah-Tay^0 so these skills should be helpful taking any mean bots out.
+
+^2C1 ^0+^2 Midair:^0 Press C1 while midair to do a ^5Ground Pound^0!
+
+
+#
+Character
+SkinName = patrick
+DisplayName = Patrick
+TagTextColor = SKINCOLOR_FANCY
+TagOutlineColor = SKINCOLOR_QUAIL
+PlayerText = No this is patrick
+#
+Freeslot
+S_SCAR
+spr_imsp
+spr_scar
+spr_sbls
+#
+MainCfg
+Level 1
+Levelname = Greenflower
+Act = 1
+Keywords = GFZ1
+Music = GFZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 2
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+SkyboxScale = 64
+FlickyList = Bluebird,Chipmunk
+#Flicky selection is final.
+#
+State
+State S_SCAR
+SpriteName = scar
+SpriteFrame = FF_FULLBRIGHT|FF_ANIMATE
+Duration = -1
+Var1 = 61
+Var2 = 5
+Next = S_PLAY_STND
+#  
